@@ -1,0 +1,55 @@
+.NavbarItems{
+    
+    height: 100px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-left: 24px;
+    color: black;
+    margin-left: 2px;
+}
+
+.navbar-logo{
+
+    
+
+}
+.sb-search {
+	position: relative;
+	margin-top: 10px;
+	width: 0%;
+	min-width: 60px;
+	height: 60px;
+	float: right;
+	overflow-x: visible;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+
+	-webkit-backface-visibility: hidden;
+}
+.navlogo{
+    color:#fff;
+      position: relative;
+    cursor:pointer;
+    margin-left:20px;
+    font-size:1.2rem;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+
+}
+.nav-menu{
+    display:inline-flex;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 50px;
+    list-style:none;
+    text-align: center;
+    margin-left: 10px;
+    width:70%;
+    font-size: 2vw;
+    /* justify-content: end; */
+    padding: 80px;
+    
+}
